@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+	<title>Flight Delay Prediction - Result</title>
+	<link rel="stylesheet" href="{{ url_for('static',filename='styles/result_styles.css') }}">
+</head>
+<body>
+	<img src="{{url_for('static', filename='styles/images/Flight.png')}}" id="bgimg">
+	{% if prediction[0]== 0.0 %}
+	<div class="pred_result" id="result_0">Your flight will likely be on time</div>
+	{% endif %}
+	{% if prediction[0] == 1.0 %}
+	<div class="pred_result" id="result_1">Your flight is likely to be delayed</div>
+	{% endif %}
+</body>
+<footer>
+<p> If you need any of your queries to be answered, kindly find below the link that provides the 24x7 customer toll-free number of different airlines</p>
+	<p><a href="http://www.tollfreeairline.com/">Airline toll-free numbers and websites</a>
+</p>
+</footer>
+</html>
