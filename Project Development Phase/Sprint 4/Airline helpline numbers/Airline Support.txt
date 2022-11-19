@@ -1,0 +1,9 @@
+register.html
+
+<html>
+<footer>
+<p> If you need any of your queries to be answered, kindly find below the link that provides the 24x7 customer toll-free number of different airlines</p>
+	<p><a href="http://www.tollfreeairline.com/">Airline toll-free numbers and websites</a>
+</p>
+</footer>
+</html>
