@@ -1,0 +1,12 @@
+API KEY
+{
+	"name": "newkey",
+	"description": "",
+	"createdAt": "2022-11-19T09:33+0000",
+	"apikey": "G0-fTz5hk2xE6cxkk-PyyzQmio8NNqeMG_wTLTgCSqmU"
+}
+
+
+ENDPOINT
+
+https://us-south.ml.cloud.ibm.com/ml/v4/deployments/9d1fb3ed-8689-426b-aedc-bc2e35bedd81/predictions?version=2022-11-19
